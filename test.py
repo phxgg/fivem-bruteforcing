@@ -66,7 +66,7 @@ def tryPassword(word):
             tryPassword(word)
 
 # keep opened the last_pass text file to keep track of the latest pass used (so we dont have to go through all the already tried passwords in case of a crash)
-with open('test_last_pass.txt', 'a+') as fLastPass:
+with open('test_last_pass.txt', 'a+', encoding = 'latin-1') as fLastPass:
     # read wordlist
     with open(wordlist, encoding = "latin-1") as fWordlist:
         for word in fWordlist:
