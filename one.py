@@ -1,7 +1,7 @@
 from pyrcon import RCON
 
 # it is adviced that you use ANSI encoding on your wordlist text file
-wordlist = 'C:/Users/stamatis/Downloads/torrents/nicewordlist.txt'
+wordlist = 'C:/Users/username/Downloads/torrents/nicewordlist.txt'
 
 # GreekLand
 ip = '134.255.233.201'
